@@ -23,3 +23,79 @@
 
 # actor = Actor.new(first_name: "Megan", last_name: "Fox", known_for: "Transformers")
 # actor.save
+
+Actor.create(first_name:FFaker::Name.first_name, last_name:FFaker::Name.last_name, known_for:FFaker::Movie.title)
+
+Actor.create(first_name:FFaker::Name.first_name, last_name:FFaker::Name.last_name, known_for:FFaker::Movie.title)
+
+Actor.create(first_name:FFaker::Name.first_name, last_name:FFaker::Name.last_name, known_for:FFaker::Movie.title)
+
+Actor.create(first_name:FFaker::Name.first_name, last_name:FFaker::Name.last_name, known_for:FFaker::Movie.title)
+
+Actor.create(first_name:FFaker::Name.first_name, last_name:FFaker::Name.last_name, known_for:FFaker::Movie.title)
+
+Actor.create(first_name:FFaker::Name.first_name, last_name:FFaker::Name.last_name, known_for:FFaker::Movie.title)
+
+Actor.create(first_name:FFaker::Name.first_name, last_name:FFaker::Name.last_name, known_for:FFaker::Movie.title)
+
+Actor.create(first_name:FFaker::Name.first_name, last_name:FFaker::Name.last_name, known_for:FFaker::Movie.title)
+
+Actor.create(first_name:FFaker::Name.first_name, last_name:FFaker::Name.last_name, known_for:FFaker::Movie.title)
+
+Actor.create(first_name:FFaker::Name.first_name, last_name:FFaker::Name.last_name, known_for:FFaker::Movie.title)
+
+Actor.create(first_name:FFaker::Name.first_name, last_name:FFaker::Name.last_name, known_for:FFaker::Movie.title)
+
+Actor.create(first_name:FFaker::Name.first_name, last_name:FFaker::Name.last_name, known_for:FFaker::Movie.title)
+
+Actor.create(first_name:FFaker::Name.first_name, last_name:FFaker::Name.last_name, known_for:FFaker::Movie.title)
+Actor.create(first_name:FFaker::Name.first_name, last_name:FFaker::Name.last_name, known_for:FFaker::Movie.title)
+
+Actor.create(first_name:FFaker::Name.first_name, last_name:FFaker::Name.last_name, known_for:FFaker::Movie.title)
+
+Actor.create(first_name:FFaker::Name.first_name, last_name:FFaker::Name.last_name, known_for:FFaker::Movie.title)
+
+Actor.create(first_name:FFaker::Name.first_name, last_name:FFaker::Name.last_name, known_for:FFaker::Movie.title)
+
+Actor.create(first_name:FFaker::Name.first_name, last_name:FFaker::Name.last_name, known_for:FFaker::Movie.title)
+
+Actor.create(first_name:FFaker::Name.first_name, last_name:FFaker::Name.last_name, known_for:FFaker::Movie.title)
+
+Actor.create(first_name:FFaker::Name.first_name, last_name:FFaker::Name.last_name, known_for:FFaker::Movie.title)
+
+Actor.create(first_name:FFaker::Name.first_name, last_name:FFaker::Name.last_name, known_for:FFaker::Movie.title)
+
+Actor.create(first_name:FFaker::Name.first_name, last_name:FFaker::Name.last_name, known_for:FFaker::Movie.title)
+
+Actor.create(first_name:FFaker::Name.first_name, last_name:FFaker::Name.last_name, known_for:FFaker::Movie.title)
+
+Actor.create(first_name:FFaker::Name.first_name, last_name:FFaker::Name.last_name, known_for:FFaker::Movie.title)
+
+Actor.create(first_name:FFaker::Name.first_name, last_name:FFaker::Name.last_name, known_for:FFaker::Movie.title)
+
+Actor.create(first_name:FFaker::Name.first_name, last_name:FFaker::Name.last_name, known_for:FFaker::Movie.title)
+Actor.create(first_name:FFaker::Name.first_name, last_name:FFaker::Name.last_name, known_for:FFaker::Movie.title)
+
+Actor.create(first_name:FFaker::Name.first_name, last_name:FFaker::Name.last_name, known_for:FFaker::Movie.title)
+
+Actor.create(first_name:FFaker::Name.first_name, last_name:FFaker::Name.last_name, known_for:FFaker::Movie.title)
+
+Actor.create(first_name:FFaker::Name.first_name, last_name:FFaker::Name.last_name, known_for:FFaker::Movie.title)
+
+Actor.create(first_name:FFaker::Name.first_name, last_name:FFaker::Name.last_name, known_for:FFaker::Movie.title)
+
+Actor.create(first_name:FFaker::Name.first_name, last_name:FFaker::Name.last_name, known_for:FFaker::Movie.title)
+
+Actor.create(first_name:FFaker::Name.first_name, last_name:FFaker::Name.last_name, known_for:FFaker::Movie.title)
+
+Actor.create(first_name:FFaker::Name.first_name, last_name:FFaker::Name.last_name, known_for:FFaker::Movie.title)
+
+Actor.create(first_name:FFaker::Name.first_name, last_name:FFaker::Name.last_name, known_for:FFaker::Movie.title)
+
+Actor.create(first_name:FFaker::Name.first_name, last_name:FFaker::Name.last_name, known_for:FFaker::Movie.title)
+
+Actor.create(first_name:FFaker::Name.first_name, last_name:FFaker::Name.last_name, known_for:FFaker::Movie.title)
+
+Actor.create(first_name:FFaker::Name.first_name, last_name:FFaker::Name.last_name, known_for:FFaker::Movie.title)
+
+Actor.create(first_name:FFaker::Name.first_name, last_name:FFaker::Name.last_name, known_for:FFaker::Movie.title)
