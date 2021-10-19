@@ -1,6 +1,41 @@
-POST http://localhost:3000/all_movies/actor
+### UPDATE ACTOR
+PUT http://localhost:3000/actors/25.json
 Content-Type: application/json
 
 {
-  "id": "15"
+  "first_name": "Mark"
 }
+
+### CREATE ACTOR
+POST http://localhost:3000/actors.json
+Content-Type: application/json
+
+{
+  "first_name": "John",
+  "last_name": "Smith",
+  "known_for": "This really good movie"
+}
+
+### DELETE ACTOR
+DELETE http://localhost:3000/actors/45.json
+
+### UPDATE MOVIE
+PUT http://localhost:3000/movies/3.json
+Content-Type: application/json
+
+{
+  "title": "greatest movie of all time"
+}
+
+### CREATE MOVIE
+POST http://localhost:3000/movies.json
+Content-Type: application/json
+
+{
+  "title": "Air Bud",
+  "year": "1999",
+  "plot": "This really good movie about a great actor and his dog"
+}
+
+### DELETE MOVIE
+DELETE http://localhost:3000/movies/2
