@@ -6,34 +6,34 @@ class MoviesController < ApplicationController
 
   def show
     index = params[:id]
-    actor = Actor.find_by(id: index)
-    render json: actor.as_json
+    movie = Movie.find_by(id: index)
+    render json: movie.as_json
   end
 
   def update
     index = params[:id]
-    actor = Actor.find_by(id: index)
-    actor.first_name = params["first_name"] || actor.first_name
-    actor.last_name = params["last_name"] || actor.last_name
-    actor.known_for = params["known_for"] || actor.known_for
-    render json: actor.as_json
+    movie = Movie.find_by(id: index)
+    movie.title = params["title"] || movie.title
+    movie.year = params["year"] || movie.year
+    movie.plot = params["plot"] || movie.plot
+    render json: movie.as_json
   end
 
   def create
-    actor = Actor.new(
-      first_name: params[first_name],
-      last_name: params[last_name],
-      known_for: params[known_for]
+    movie = Movie.new(
+      title: params[title],
+      year: params[year],
+      plot: params[plot]
     )
-    actor.save
-    render json: actor.as_json
+    movie.save
+    render json: movie.as_json
   end
 
   def destroy
     index = params[:id]
-    actor = Actor.find_by(id: index)
-    actor.destroy
+    movie = Movie.find_by(id: index)
+    movie.destroy
   end
-  
+
 
 end

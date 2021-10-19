@@ -1,8 +1,14 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+  # MOVIE ROUTES
   get "/movies" => "movies#index"
   get "/movies/:id" => "movies#show"
   post "/movies" => "movies#update"
   post "/movies" => "movies#create"
   delete "/movies/:id" => "movies#destroy"
+  # ACTOR ROUTES
+  get "/actors" => "actors#index"
+  get "/actors/:id" => "actors#show"
+  post "/actors" => "actors#update"
+  post "/actors" => "actors#create"
+  delete "/actors/:id" => "actors#destroy"
 end
