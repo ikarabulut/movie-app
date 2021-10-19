@@ -1,5 +1,5 @@
 class MoviesController < ApplicationController
-  def all_movies
+  def index
     all_movies = Movie.all
     render json: all_movies.as_json
   end
@@ -10,10 +10,30 @@ class MoviesController < ApplicationController
     render json: actor.as_json
   end
 
-  def post_actor
+  def update
     index = params[:id]
     actor = Actor.find_by(id: index)
+    actor.first_name = params["first_name"] || actor.first_name
+    actor.last_name = params["last_name"] || actor.last_name
+    actor.known_for = params["known_for"] || actor.known_for
     render json: actor.as_json
   end
+
+  def create
+    actor = Actor.new(
+      first_name: params[first_name],
+      last_name: params[last_name],
+      known_for: params[known_for]
+    )
+    actor.save
+    render json: actor.as_json
+  end
+
+  def destroy
+    index = params[:id]
+    actor = Actor.find_by(id: index)
+    actor.destroy
+  end
+  
 
 end
