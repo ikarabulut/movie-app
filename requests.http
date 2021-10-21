@@ -13,18 +13,20 @@ Content-Type: application/json
 {
   "first_name": "John",
   "last_name": "Smith",
-  "known_for": "This really good movie"
+  "known_for": "This really good movie",
+  "gender": "male",
+  "age": "21"
 }
 
 ### DELETE ACTOR
 DELETE http://localhost:3000/actors/45.json
 
 ### UPDATE MOVIE
-PUT http://localhost:3000/movies/3.json
+PUT http://localhost:3000/movies/7.json
 Content-Type: application/json
 
 {
-  "title": "greatest movie of all time"
+  "english":
 }
 
 ### CREATE MOVIE
@@ -34,7 +36,9 @@ Content-Type: application/json
 {
   "title": "Air Bud",
   "year": "1999",
-  "plot": "This really good movie about a great actor and his dog"
+  "plot": "This really good movie about a great actor and his dog",
+  "director": "Mavi",
+  "english": "false"
 }
 
 ### DELETE MOVIE
