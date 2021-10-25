@@ -2,13 +2,13 @@ class ActorsController < ApplicationController
 
   def index
     actors = Actor.all
-    render json: actors.as_json
+    render json: actors
   end
 
   def show
     index = params[:id]
     actor = Actor.find_by(id: index)
-    render json: actor.as_json
+    render json: actor
   end
 
   def update
@@ -19,8 +19,9 @@ class ActorsController < ApplicationController
     actor.known_for = params["known_for"] || actor.known_for
     actor.gender = params["gender"] || actor.gender
     actor.age = params["age"] || actor.age
+    actor.movie_id = 
     if actor.save
-      render json: actor.as_json
+      render json: actor
     else
       render json: {errors: actor.errors.full_messages}
     end
@@ -35,7 +36,7 @@ class ActorsController < ApplicationController
       age: params["age"]
     )
     if actor.save
-      render json: actor.as_json
+      render json: actor
     else
       render json: {errors: actor.errors.full_messages}
     end
