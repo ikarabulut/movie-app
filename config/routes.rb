@@ -13,5 +13,8 @@ Rails.application.routes.draw do
   delete "/actors/:id" => "actors#destroy"
   # USER ROUTES
   post "/users" => "users#create"
+  # SESSION ROUTES
+  post "/sessions" => "sessions#create"
+
 
 end
