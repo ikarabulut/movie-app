@@ -1,4 +1,6 @@
 class MoviesController < ApplicationController
+  before_action :authenticate_admin, except [:index, :show]
+
   def index
     all_movies = Movie.all
     render json: all_movies.as_json
