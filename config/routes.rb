@@ -11,4 +11,7 @@ Rails.application.routes.draw do
   put "/actors/:id" => "actors#update"
   post "/actors" => "actors#create"
   delete "/actors/:id" => "actors#destroy"
+  # USER ROUTES
+  post "/users" => "users#create"
+
 end
