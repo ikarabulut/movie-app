@@ -15,6 +15,8 @@ Rails.application.routes.draw do
   post "/users" => "users#create"
   # SESSION ROUTES
   post "/sessions" => "sessions#create"
+  # MOVIE_GENRE ROUTES
+  post "/movie_genres" => "movie_genres#create"
 
 
 end
